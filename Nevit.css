@@ -1,0 +1,400 @@
+body{
+    background-color: #101010;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: justify;
+    padding: 3px;
+    font-size: 90%;
+    height: auto;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+    padding-top: 10px;
+    user-select: text; /*delete this and the user can't select anything*/
+}
+::selection{
+    color: red;
+    background: #333333;
+}
+h1{
+    text-align: left;
+}
+table{
+    width: 100%;
+    color: white;
+    background-color: #101010;
+    border-collapse: collapse;
+    height: 100%;
+    text-align: left;
+}
+td{
+    width: 33%;
+    padding: 3px;
+}
+tr{
+    border: 0;
+    border-width: 1px 0;
+    border-color: #444444;
+}
+tr:first-child{
+    border-top: 0;
+    border-bottom: 0;
+}
+tr:last-child{
+    border-bottom: 0;
+}
+.logo{
+    width: 70px;
+    vertical-align: middle;
+    float: left;
+    cursor: crosshair;
+}
+.logtext{
+    font-size:  28px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    cursor: crosshair;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: crimson;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: crimson;
+}
+hr{
+    height: 1px;
+    border-width: 1;
+    border-color: white;
+    color: #444444;
+    background-color: #444444;
+}
+/*for mobile*/
+@media screen and (max-width: 801px) {
+    .pad{padding: 5%;}
+    #centd{
+        width: 25%;
+        padding: 10px;
+        text-align: center;
+    }
+    .logo2{
+        width: 200px;
+        vertical-align: bottom;
+        cursor: crosshair;
+    }
+    #tdsides{
+        width: 0;
+    }
+    #tdmid{
+        width: 100%;
+        text-align: justify;
+    }
+}
+
+.pad{padding-left: 20%; padding-right: 20%; padding-top: 100px; padding-bottom: 1%;}
+
+.unselectable {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+ }
+ #access {
+    font-size: 25px;
+    background-color: #101010;
+    border: solid white 1px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    vertical-align: top;
+}
+#access:hover{
+    border: solid red 1px;
+    color: red;
+}
+#ct{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    background-color: #101010;
+    border: 0;
+}
+.logo2{
+    width: 300px;
+    vertical-align: bottom;
+    cursor: crosshair;
+}
+#ptr{
+    height: 25%;
+    border: 0;
+}
+.btn {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+#but{
+    border: 0;
+    color: white;
+    padding: 0;
+    font-size: 40px;
+    background-color: #101010;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+#but:hover{
+    color: red;
+}
+#cen{
+    display: block; 
+    text-align: center;
+}
+#centable{
+    width: 100%;
+    color: white;
+    background-color: #101010;
+    border-collapse: collapse;
+    height: 100%;
+    text-align: center;
+}
+#centd{
+    width: 25%;
+    padding: 25px;
+    max-height: 30px;
+    text-align: center;
+}
+#tr1{
+    max-height: 50px;
+}
+#logtext2{
+    font-size:  28px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    cursor: crosshair;
+    color: white;
+}
+.footer {
+    text-align: center;
+    background-color: #444444;
+    padding: 3px;
+    border: 4px groove;
+    color: white;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:auto;   /* Height of the footer */
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer{
+    text-align: center;
+    background-color: #444444;
+    padding: 3px;
+    border: 4px groove;
+    color: white;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    left: 0;
+    height:auto;   /* Height of the footer */
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+#but2{
+    border: 0;
+    color: white;
+    padding: 6px;
+    font-size: 25px;
+    background-color: #444444;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+#but2:hover{
+    color: red;
+}
+
+#tdf{
+    background-color: #444444;
+    border: 4px groove;
+    border-color: white;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fixedheader{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head{
+    background-color: #444444;
+    border: 4px groove;
+    cursor: crosshair;
+    border-color: white;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    padding-left: 19px;
+}
+#but3{
+    border: 0;
+    color: white;
+    padding: 0;
+    font-size: 17px;
+    background-color: #101010;
+    cursor: pointer;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+}
+#but3:hover{
+    color: red;
+}
+#lefttd{
+    width: 50%;
+    padding: 15px;
+    max-height: 30px;
+    text-align: left;
+}
+#tr2{
+    border: solid #444444 1px;
+    border-left: 0;
+    border-right: 0;
+}
+#tr2:first-child{
+    border-top: 0;
+}
+.table2{
+    width: 100%;
+    color: white;
+    background-color: #101010;
+    border-collapse: collapse;
+    height: 100%;
+    text-align: left;
+}
+#logtextclick{
+    font-size:  28px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    cursor: pointer;
+    color: white;
+}
+.logoclick{
+    width: 70px;
+    vertical-align: middle;
+    float: left;
+    cursor: pointer;
+}
+#headerlong{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#tdsides{
+    width: 20%;
+}
+#tdmid{
+    width: 60%;
+    text-align: justify;
+}
+#header {
+    background-color: #444444;
+    color: white;
+    text-align: left;
+    font-size: 30px; 
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    left: 0;
+    cursor: crosshair;
+    border: 4px groove white;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    width: 100%;
+    transition: 0.3s;
+    margin-bottom: 0;
+  }
+#logowithtext{
+    width: 210px;
+    vertical-align: middle;
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 10px;
+    transition: 0.3s;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #222222;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #444444;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555555;
+  }
+  
+  #route{
+      font-size: 10px;
+      width: 100%;
+      border-bottom: solid 1px #555555;
+      background-color: #101010;
+      transition: 0.3s;
+      position: fixed;
+      left: 0;
+      top: 0;
+      padding-left: 10px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+  }
+  #routelink{
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+  }
+  #routelink:hover{
+      color: red;
+  }
